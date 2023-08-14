@@ -1,7 +1,5 @@
 from dataclasses import dataclass
 
-NOTSTARTED = "noch nicht bbbegonnen"
-COMPLETED = "abbbgeschlossen"
 items = []
 
 
