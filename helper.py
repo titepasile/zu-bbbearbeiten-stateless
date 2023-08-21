@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+#Daten werden gespeichert
 items = []
 
 
@@ -8,7 +9,7 @@ class Item:
     text: str
     isCompleted: bool = False
 
-
+#Hier finden die Verbisierungen statt
 def add(text):
     text = text.replace('b', 'bbb').replace('B', 'Bbb')
     items.append(Item(text))
