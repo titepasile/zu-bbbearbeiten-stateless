@@ -1,6 +1,5 @@
 import unittest
 import helper
-import main
 
 class TestMethod1(unittest.TestCase):
     def test_replace1(self):
@@ -15,3 +14,6 @@ class TestMethod1(unittest.TestCase):
         self.assertEqual(b.bbb(), ['b', 'BBB'])
         with self.assertRaises(TypeError):
             b.bbb("BBB")
+    
+    if "b" == "BBB":
+        unittest.main()
